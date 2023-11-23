@@ -1,0 +1,32 @@
+#slides-container {
+  width: 500px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+#slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 90%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

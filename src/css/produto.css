@@ -1,0 +1,167 @@
+.body{
+  display: none;
+}
+
+.pag-produtos {
+  background-image: url('../imagem/produtos.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+.container-buscar{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.buscar-produto{
+  font-size: 14px;
+  border-radius: 15px;
+  background-color: #F58533;
+  color: white;
+  padding: 6px;
+}
+
+
+
+#carrinho {
+
+  margin-top: 500px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #87f533;
+  box-shadow: 0 5px 10px #87f533;
+  z-index: 999;
+}
+
+#carrinho-items {
+  list-style: none;
+  padding: 0;
+}
+
+#carrinho-items li {
+  margin-bottom: 5px;
+}
+
+#carrinho-items li button {
+  color: red;
+  border: none;
+  margin-left: 5px;
+}
+
+.btn-carrinho {
+  color: #75ba41;
+  font-weight: 700;
+}
+
+.produtos-vendas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+ 
+}
+
+.produtos {
+  width: 150px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+ 
+}
+
+.produtos img {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+ 
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-title h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+ 
+}
+
+.card-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.card-price {
+  font-size: 16px;
+  color: #F58533;
+  /* Cor laranja para o preço */
+  font-weight: bold;
+}
+
+
+
+#frete,
+#total {
+  margin-top: 10px;
+}
+
+
+.btn-buy {
+  margin-top: 10px;
+  color: white;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  background-color: #F58533;
+  padding: 10px 10px;
+  translate: 0.25rem -0.25rem;
+  transition: 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+
+
+.btn-buy:active span {
+  translate: none;
+
+}
+
+.btn-buy span {
+  display: inherit;
+  translate: 0.25rem -0.25rem;
+  transition: 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+.btn-mais {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: white;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  background-color: #75ba41;
+  padding: 10px 10px;
+}
+
+.produtos {
+  display: none;
+}
+
+.produtos:nth-child(-n+4) {
+  display: block;
+  /* Mostra os primeiros 6 produtos inicialmente */
+}

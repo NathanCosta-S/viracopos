@@ -1,0 +1,89 @@
+.texte-formulario {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Saira Stencil One', sans-serif;
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+
+
+}
+
+.texto-duvida {
+    color: white;
+    padding-right: 50px;
+    width: 280px;
+
+
+}
+
+.texto-duvida h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.texto-duvida p {
+    font-size: 15px;
+    font-weight: 400;
+    top: -59px;
+    left: -361px;
+}
+
+.formulario {
+    background-color: white;
+    width: 340px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 22px;
+    border-radius: 20px;
+    border: 1px solid #87f533;
+    box-shadow: 0 5px 10px #87f533;
+}
+
+.formulario form input {
+    width: 299px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.formulario form p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.formulario form input:last-child {
+    border: none;
+    background-color: #3bcc87;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario span {
+    color: red;
+    font-size: 12px;
+}
+
+.formulario form input.campo-preenchido {
+    border: 1px solid green;
+}
+
+.formulario form input.campo-nao-preenchido {
+    border: 1px solid rgb(128, 0, 0);
+
+}
+
+.carrinho {
+    background-color: white;
+}

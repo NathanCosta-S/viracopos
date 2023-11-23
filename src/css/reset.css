@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@400;500;600;800&family=Roboto:wght@400;700;900&family=Saira+Stencil+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+   font-family: 'Roboto', sans-serif;
+  
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+} 
+
+
+
+

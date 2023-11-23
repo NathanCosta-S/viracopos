@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/reponsivo.css">
+    <link rel="stylesheet" href="src/css/formulario.css">
+    <link rel="stylesheet" href="src/css/produto.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="shortcut icon" href="src/imagem/LOGOicon.ico" type="image/x-icon">
+    <title>ViraCopo`s conveniência</title>
+</head>
+
+<body class="pag-produtos">
+    <header class="header">
+        <nav>
+            <input type="checkbox" id="menu-hamburguer" />
+
+            <label for="menu-hamburguer">
+
+                <div class="menu">
+
+                    <span class="hamburguer"></span>
+
+                </div>
+
+            </label>
+            <ul class="menu-p">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">SOBRE</a></li>
+                <li><a href="index.html">NOSSA LOJA</a></li>
+                <li><a href="index.html">CONTATO</a></li>
+                <li><a href="#">PEDIR DELIVERY</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="container-buscar">
+            <input class="buscar-produto" type="text" id="searchInput" placeholder="Buscar Produto..."
+                oninput="filtrarProdutos()">
+        </div>
+        <section class="produtos-vendas" id="produtosSection">
+
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                   
+                    <div class="card-price">
+                        <p>$3,90</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('bhrama', 3.90)"><span>Comprar</span></button>
+                </div>
+            </div>
+
+
+
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+           
+                    <div class="card-price">
+                        <p>$3,90</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('skol', 3.90)"><span>Comprar</span></button>
+                </div>
+            </div>
+
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            <div class="produtos">
+                <img src="src/imagem/produtos/skol.png" alt="Produto">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h2>cerveja</h2>
+                    </div>
+                    <div class="card-description">Descrição curta do produto.</div>
+                    <div class="card-price">
+                        <p>$19.99</p>
+                    </div>
+                    <button class="btn-buy" onclick="addItemToCarrinho('Cerveja', 19.99)"><span>Comprar</span></button>
+                </div>
+            </div>
+            
+        </section>
+        <button class="btn-mais" id="btnLoadMore" onclick="loadMoreProducts()">Carregar Mais</button>
+        <div class="carrinho" id="carrinho">
+            <p>Carrinho:</p>
+            <ul id="carrinho-items"></ul>
+            <p id="frete">Frete: $6</p>
+            <p id="total">Total: $0</p>
+            <a class="btn-carrinho" href="#pedido">Fazer pedido</a>
+        </div>
+
+
+        <section id="pedido" class="conteudo">
+
+            <div class="formulario">
+                <p class="texte-formulario">Formulario de pedido</p>
+
+                <form id="meuFormulario">
+
+
+                    <input class="input-text" type="text" name="nome" id="nome" placeholder="Ex.João da silva*">
+                    <label for="nome">Nome completo</label>
+
+                    <input class="input-text mensagem-erro" type="text" name="endereco" id="endereco"
+                        placeholder="Ex. Rua Caetes n° 399*">
+                    <label for="nome">Endereço completo</label>
+
+                    <input class="input-text" type="text" name="pagamento" id="pagamento"
+                        placeholder="Ex.Dinheiro ou Cartão*">
+                    <label for="nome">Forma de pagamento</label>
+
+                    <input class="input-text" type="number" name="telefone" id="telefone" placeholder="Ex.99 999999999">
+                    <label for="nome">Seu telefone</label>
+
+                    <p>* campos obrigatórios</p>
+
+                    <input type="button" value="Enviar" onclick="enviarMensagem()">
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer id="contato">
+        <div class="logo-footer">
+            <a href="/">
+                <img src="src/imagem/LOGO.png" alt="imagem da logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu-footer">
+                <li><a href="#sobre">HOME</a></li>
+                <li><a href="#habilidade">SOBRE</a></li>
+                <li><a href="#projeto">NOSSA LOJA</a></li>
+                <li><a href="#sobre">CONTATO</a></li>
+                <li><a href="produtos.html">PEDIR DELIVERY</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="">
+                <img src="src/imagem/social/instagram_black_logo_icon_147122.png" width="50px" alt=""></a>
+            <a href="">
+                <img src="src/imagem/social/mapas-e-bandeiras.png" width="30px" alt=""></a>
+            <a href="">
+                <img src="src/imagem/social/whatsapp_black_logo_icon_147050.png" width="50px" alt=""></a>
+        </div>
+
+    </footer>
+
+    <script src="src/js/produtos.js">
+        window.onload = function () {
+            filtrarProdutos();
+        };
+    </script>
+
+</body>
+
+</html>

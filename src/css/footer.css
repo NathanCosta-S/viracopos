@@ -1,0 +1,55 @@
+.logo-footer {
+    text-align: center;
+    margin: 70px 60px;
+}
+
+.logo-footer img {
+    display: inline-block;
+    width: 250px;
+    
+  
+
+}
+
+.menu-footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-footer li a {
+
+    padding: 2px 20px;
+    transition: border-color 0.3s;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+    font-family: 'Saira Stencil One', sans-serif;
+    font-weight: 400;
+
+}
+
+.menu-footer li a:hover {
+    border-top: 1px solid #F58533;
+    border-bottom: 1px solid #F58533;
+    transition: 0.4s ease-in-out;
+}
+
+.menu-footer li:last-child a {
+    color: #F58533;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+
+.map {
+    height: 400px;
+}
