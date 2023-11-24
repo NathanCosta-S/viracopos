@@ -113,7 +113,7 @@ function enviarMensagem() {
         let mensagemPedido = `%0AOlá, vim pelo site.%0ANome: ${nome}%0AEndereço: ${endereco}%0APagamento: ${pagamento}%0ATelefone: ${telefone}%0A%0AProdutos do Carrinho:%0A`;
 
         carrinho.forEach(item => {
-            mensagemPedido += `${item.name} - $${item.price} x${item.quantity} = $${item.totalPrice}%0A`;
+            mensagemPedido += `${item.name} - $${item.price} (x${item.quantity}) = $${item.totalPrice}%0A`;
         });
 
         mensagemPedido += `%0AFrete: $${frete}%0ATotal com Frete: $${calcularTotal()} %0APoderia confirmar meu pedido?`;
@@ -132,7 +132,7 @@ function enviarMensagem() {
 
 
 
-var produtosPorPagina = 6; // Altere conforme necessário
+var produtosPorPagina = 4; // Altere conforme necessário
 var paginaAtual = 1;
 
 // Função para carregar mais produtos
