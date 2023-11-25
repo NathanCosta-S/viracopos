@@ -1,4 +1,4 @@
-.body{
+.body {
   display: none;
 }
 
@@ -10,13 +10,14 @@
   background-attachment: fixed;
 }
 
-.container-buscar{
+.container-buscar {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
 }
-.buscar-produto{
+
+.buscar-produto {
   font-size: 14px;
   border-radius: 15px;
   background-color: #F58533;
@@ -65,7 +66,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 5px;
- 
+
 }
 
 .produtos {
@@ -76,22 +77,25 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
- 
+
 }
 
-.card-description p{
+.card-description p {
   color: rgb(70, 162, 76);
   font-weight: 600;
 }
 
 .produtos img {
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-  
- 
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+
+
+
+}
+
+.produtos.img-reajuste img {
+  width: 60%;
 }
 
 .card-content {
@@ -102,7 +106,7 @@
   text-align: center;
   font-size: 16px;
   font-weight: bold;
- 
+
 }
 
 .card-description {

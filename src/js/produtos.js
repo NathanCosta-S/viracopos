@@ -131,7 +131,6 @@ function enviarMensagem() {
 }
 
 
-
 var produtosPorPagina = 4; // Altere conforme necessário
 var paginaAtual = 1;
 
