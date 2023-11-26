@@ -1,56 +1,64 @@
-.body{
+.body {
     background-image: url('../imagem/parede.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.home{
+.home {
     color: #ffffff;
     height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
-.text-home{
+.text-home {
     font-size: 30px;
     font-weight: 600;
     padding: 40px 45px;
-    -webkit-text-stroke: 0.5px #F58533; 
+    -webkit-text-stroke: 0.5px #F58533;
     text-align: center;
 }
 
 .logo {
     width: 250px;
     height: 240px;
-    transition: 1s ease-in-out;
+   
+    animation: 4s infinite anima-logo;
+}
+
+@keyframes anima-logo {
+    0% {
+        transform: scale(0.5);
+    }
 
 }
 
-.btn-home{
+
+.btn-home {
     color: white;
     background-color: #ffffff;
     border-radius: 1rem;
-    
+
 }
 
-.btn-home:hover span{
+.btn-home:hover span {
     background-color: #F58533;
     color: #000000;
 
 
 }
 
-.btn-home:active span{
+.btn-home:active span {
     translate: none;
-    
+
 }
 
-.btn-home span{
+.btn-home span {
     border-radius: 1rem;
     display: inherit;
     background-color: #F58533;
@@ -58,22 +66,22 @@
     translate: 0.25rem -0.25rem;
     border: 2px solid rgb(255, 252, 250);
     transition: 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-     
+
 }
 
 .pulsar {
     animation: pulsar 1s infinite alternate ease-in-out;
-  
-  }
-  
-  @-webkit-keyframes pulsar {
+
+}
+
+@-webkit-keyframes pulsar {
     0% {
-      -webkit-transform: translateY(1em);
-  
+        -webkit-transform: translateY(1em);
+
     }
-  
+
     100% {
-      -webkit-transform: translateY(0);
-  
+        -webkit-transform: translateY(0);
+
     }
-  }
+}

@@ -51,6 +51,10 @@
   width: 100%;
 
 }
+#carrinho p{
+  font-weight: 800;
+  
+}
 
 #carrinho.show {
   display: block;
@@ -117,7 +121,7 @@
   display: flex;
   width: 100px;
   margin: 10px;
-  background-color: #cecbcb;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
