@@ -45,11 +45,27 @@
     justify-content: space-around;
     text-align: center;
     margin-top: 50px;
-    
+    padding-bottom: 30px;
 }
 
 
 
 .map {
     height: 400px;
+}
+
+.desenvolvido{
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url('../imagem/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    
+}
+
+.desenvolvido p, a{
+    font-weight: 900;
 }

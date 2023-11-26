@@ -1,4 +1,12 @@
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
+    .body{
+        background-image: url('../imagem/paredeMB.jpg');
+    }
+
+    .pag-produtos {
+        background-image: url('../imagem/produtosMB.png');
+       
+    }
     .header .menu {
         display: block;
 

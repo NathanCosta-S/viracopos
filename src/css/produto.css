@@ -1,13 +1,9 @@
-.body {
-  display: none;
-}
-
 .pag-produtos {
   background-image: url('../imagem/produtos.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-
   background-attachment: fixed;
+  
 }
 
 .container-buscar {
