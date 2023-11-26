@@ -60,14 +60,14 @@
 .produtos-vendas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding: 5px;
 
 }
 
 .produtos {
   display: flex;
-  width: 150px;
+  width: 100px;
   margin: 10px;
   background-color: #cecbcb;
   border-radius: 8px;

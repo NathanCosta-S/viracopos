@@ -71,10 +71,6 @@
 }
 
 @media (max-width: 480px) {
-    .produtos {
-        width: 100%;
-    }
-
 
     .conteudo{
         display: flex;
