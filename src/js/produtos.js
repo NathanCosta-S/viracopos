@@ -41,7 +41,7 @@ function updateCarrinhoUI() {
 
     carrinho.forEach((item, index) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `${item.name} - $${item.price} x${item.quantity} = $${item.totalPrice}`;
+        listItem.textContent = `${item.name} - $${item.price} (x${item.quantity}) = $${item.totalPrice}`;
 
         const removeButton = document.createElement('button');
         removeButton.textContent = 'Remover';
@@ -131,7 +131,7 @@ function enviarMensagem() {
 }
 
 
-var produtosPorPagina = 4; // Altere conforme necessário
+var produtosPorPagina = 5; // Altere conforme necessário
 var paginaAtual = 1;
 
 // Função para carregar mais produtos

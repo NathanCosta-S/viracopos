@@ -5,7 +5,6 @@
   background-attachment: fixed;
 
 }
-
 .container-buscar {
   display: flex;
   justify-content: center;
@@ -13,11 +12,12 @@
   padding: 20px;
 }
 
+
 .buscar-produto {
   font-size: 14px;
   border-radius: 15px;
-  background-color: #F58533;
-  color: white;
+  background-color: #87f533;
+  color: black;
   padding: 6px;
 }
 
@@ -210,5 +210,5 @@
 
 .produtos:nth-child(-n+4) {
   display: block;
-  /* Mostra os primeiros 6 produtos inicialmente */
+  
 }
