@@ -3,14 +3,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
+
 }
 
 .container-buscar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .buscar-produto {
@@ -21,20 +21,30 @@
   padding: 6px;
 }
 
+.vercarrinho img {
+  width: 100px;
+}
+
+.vercarrinho {
+  margin-top: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
 
 
 #carrinho {
 
-  margin-top: 500px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: #fff;
+
+  margin-top: 14px;
+  background-color: #cecbcb;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #87f533;
   box-shadow: 0 5px 10px #87f533;
-  z-index: 999;
+  text-align: center;
+
 }
 
 #carrinho-items {
@@ -57,12 +67,41 @@
   font-weight: 700;
 }
 
+.btn-topo {
+  color: #F58533;
+  font-weight: 700;
+}
+
 .produtos-vendas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 5px;
+  max-height: 500px;
+  /* Altura máxima da seção antes de começar a rolar */
+  overflow-y: auto;
+  scrollbar-width: thin;
+  /* Para navegadores Firefox */
+  scrollbar-color: #333333 #ffffff;
+  /* Para navegadores Firefox */
+  border: 1px solid #F58533;
+  box-shadow: 0 5px 10px #F58533;
 
+}
+
+.produtos-vendas::-webkit-scrollbar {
+  width: 10px;
+  /* Largura da barra de rolagem */
+}
+
+.produtos-vendas::-webkit-scrollbar-thumb {
+  background-color: #F58533;
+  /* Cor do botão de rolagem */
+}
+
+.produtos-vendas::-webkit-scrollbar-track {
+  background-color: #8e8e8e;
+  /* Cor da barra de rolagem */
 }
 
 .produtos {
@@ -86,13 +125,12 @@
   display: block;
   margin: 0 auto;
 
-
-
 }
 
 .produtos.img-reajuste img {
   width: 60%;
 }
+
 .produtos.img-reajuste2 img {
   width: 50%;
 }
