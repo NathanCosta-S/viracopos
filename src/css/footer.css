@@ -62,12 +62,11 @@
     background-size: cover;
     background-position: center;
     padding: 10px;
-   
-    
 }
 .desenvolvido-produtos{
     padding-bottom: 250px;
 }
-.desenvolvido p, a{
+.footer .desenvolvido p a{
     font-weight: 900;
+    background-color: black;
 }

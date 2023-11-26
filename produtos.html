@@ -3697,8 +3697,16 @@
 
     <button class="btn-mais" id="btnLoadMore" onclick="loadMoreProducts()">Carregar Mais</button>
 
-    <!-- <a class="vercarrinho" href="#carrinho"><img src="src/imagem/produtos/carrinho.png" alt=""></a> -->
+    <a class="vercarrinho" href="#carrinho"><img src="src/imagem/produtos/carrinho.png" alt=""></a>
 
+    <div class="carrinho" id="carrinho">
+        <p>Carrinho:</p>
+        <ul id="carrinho-items"></ul>
+        <p id="frete">Frete: $6</p>
+        <p id="total">Total: $0</p>
+        <a class="btn-carrinho" href="#pedido">Fazer pedido</a>
+        <a class="btn-limpar" href="#" onclick="limparCarrinho()">/ Limpar Itens</a>
+    </div>
 
 
     <section id="pedido" class="conteudo">
@@ -3761,14 +3769,7 @@
         </div>
      
     </footer>
-    <div class="carrinho" id="carrinho">
-        <p>Carrinho:</p>
-        <ul id="carrinho-items"></ul>
-        <p id="frete">Frete: $6</p>
-        <p id="total">Total: $0</p>
-        <a class="btn-carrinho" href="#pedido">Fazer pedido</a>
-        <a class="btn-topo" href="#searchInput">/Comprar mais</a>
-    </div>
+   
     <script src="src/js/produtos.js">
         window.onload = function () {
             filtrarProdutos();

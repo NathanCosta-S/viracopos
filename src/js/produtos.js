@@ -41,7 +41,7 @@ function updateCarrinhoUI() {
 
     carrinho.forEach((item, index) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `${item.name} - $${item.price} (x${item.quantity}) = $${item.totalPrice}`;
+        listItem.textContent = `${item.name} - $${item.price} (${item.quantity})Item = $${item.totalPrice}`;
 
         const removeButton = document.createElement('button');
         removeButton.textContent = 'Remover';
@@ -73,6 +73,12 @@ function removeItemFromCarrinho(index) {
 
     updateCarrinhoUI();
 }
+function limparCarrinho() {
+    carrinho = [];
+    total = 0;
+    updateCarrinhoUI();
+}
+
 function enviarMensagem() {
     const campos = document.querySelectorAll(".input-text");
     let todosCamposPreenchidos = true;

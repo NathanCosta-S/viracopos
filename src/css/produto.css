@@ -45,9 +45,9 @@
   border: 1px solid #87f533;
   box-shadow: 0 5px 10px #87f533;
   text-align: center;
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  right: 0;
+  right: 0; */
   width: 100%;
 
 }
@@ -76,8 +76,8 @@
   font-weight: 700;
 }
 
-.btn-topo {
-  color: #F58533;
+.btn-limpar {
+  color: red;
   font-weight: 700;
 }
 
@@ -185,6 +185,7 @@
   padding: 10px 10px;
   translate: 0.25rem -0.25rem;
   transition: 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
 
 }
 .btn-buy:hover{
