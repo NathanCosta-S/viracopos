@@ -5,6 +5,7 @@
   background-attachment: fixed;
 
 }
+
 .container-buscar {
   display: flex;
   justify-content: center;
@@ -38,13 +39,21 @@
 
 
   margin-top: 14px;
-  background-color: #cecbcb;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #87f533;
   box-shadow: 0 5px 10px #87f533;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 
+}
+
+#carrinho.show {
+  display: block;
 }
 
 #carrinho-items {
@@ -210,5 +219,5 @@
 
 .produtos:nth-child(-n+4) {
   display: block;
-  
+
 }

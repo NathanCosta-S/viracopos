@@ -3697,16 +3697,8 @@
 
     <button class="btn-mais" id="btnLoadMore" onclick="loadMoreProducts()">Carregar Mais</button>
 
-    <a class="vercarrinho" href="#carrinho"><img src="src/imagem/produtos/carrinho.png" alt=""></a>
+    <!-- <a class="vercarrinho" href="#carrinho"><img src="src/imagem/produtos/carrinho.png" alt=""></a> -->
 
-    <div class="carrinho" id="carrinho">
-        <p>Carrinho:</p>
-        <ul id="carrinho-items"></ul>
-        <p id="frete">Frete: $6</p>
-        <p id="total">Total: $0</p>
-        <a class="btn-carrinho" href="#pedido">Fazer pedido</a>
-        <a class="btn-topo" href="#searchInput">/Comprar mais</a>
-    </div>
 
 
     <section id="pedido" class="conteudo">
@@ -3739,7 +3731,7 @@
     </section>
 
 
-    <footer id="contato">
+    <footer class="footer" id="contato">
         <div class="logo-footer">
             <a href="/">
                 <img src="src/imagem/LOGO.png" alt="imagem da logo">
@@ -3763,13 +3755,20 @@
                 <img src="src/imagem/social/whatsapp.png" width="170px" alt=""></a>
         </div>
 
-        <div class="desenvolvido">
+        <div class="desenvolvido desenvolvido-produtos">
             <p>Desenvolvido por <a href="https://nathancosta-s.github.io/portifolio02/" target="_blank">Nathan Costa</a>
             </p>
         </div>
-
+     
     </footer>
-
+    <div class="carrinho" id="carrinho">
+        <p>Carrinho:</p>
+        <ul id="carrinho-items"></ul>
+        <p id="frete">Frete: $6</p>
+        <p id="total">Total: $0</p>
+        <a class="btn-carrinho" href="#pedido">Fazer pedido</a>
+        <a class="btn-topo" href="#searchInput">/Comprar mais</a>
+    </div>
     <script src="src/js/produtos.js">
         window.onload = function () {
             filtrarProdutos();

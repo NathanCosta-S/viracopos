@@ -1,3 +1,8 @@
+.footer{
+    position: relative;
+   
+
+}
 .logo-footer {
     text-align: center;
     margin: 70px 60px;
@@ -57,9 +62,12 @@
     background-size: cover;
     background-position: center;
     padding: 10px;
+   
     
 }
-
+.desenvolvido-produtos{
+    padding-bottom: 250px;
+}
 .desenvolvido p, a{
     font-weight: 900;
 }
