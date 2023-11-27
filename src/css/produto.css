@@ -45,30 +45,22 @@
   border: 1px solid #87f533;
   box-shadow: 0 5px 10px #87f533;
   text-align: center;
-  /* position: fixed;
-  bottom: 0;
-  right: 0; */
   width: 100%;
-
 }
 #carrinho p{
   font-weight: 800;
   
 }
-
 #carrinho.show {
   display: block;
 }
-
 #carrinho-items {
   list-style: none;
   padding: 0;
 }
-
 #carrinho-items li {
   margin-bottom: 5px;
 }
-
 #carrinho-items li button {
   color: red;
   border: none;
@@ -91,12 +83,9 @@
   justify-content: center;
   padding: 5px;
   max-height: 500px;
-  /* Altura máxima da seção antes de começar a rolar */
   overflow-y: auto;
   scrollbar-width: thin;
-  /* Para navegadores Firefox */
   scrollbar-color: #333333 #ffffff;
-  /* Para navegadores Firefox */
   border: 1px solid #F58533;
   box-shadow: 0 5px 10px #F58533;
 
@@ -104,17 +93,14 @@
 
 .produtos-vendas::-webkit-scrollbar {
   width: 10px;
-  /* Largura da barra de rolagem */
 }
 
 .produtos-vendas::-webkit-scrollbar-thumb {
   background-color: #F58533;
-  /* Cor do botão de rolagem */
 }
 
 .produtos-vendas::-webkit-scrollbar-track {
   background-color: #8e8e8e;
-  /* Cor da barra de rolagem */
 }
 
 .produtos {
@@ -168,17 +154,13 @@
 .card-price {
   font-size: 16px;
   color: #F58533;
-  /* Cor laranja para o preço */
   font-weight: bold;
 }
-
-
 
 #frete,
 #total {
   margin-top: 10px;
 }
-
 
 .btn-buy {
   margin-top: 10px;
@@ -190,24 +172,20 @@
   translate: 0.25rem -0.25rem;
   transition: 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
-
 }
+
 .btn-buy:hover{
   background-color: #75ba41;
 }
 
-
-
 .btn-buy:active span {
   translate: none;
-
 }
 
 .btn-buy span {
   display: inherit;
   translate: 0.25rem -0.25rem;
   transition: 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
 }
 
 .btn-mais {

@@ -17,7 +17,7 @@ function prevSlide() {
   showSlide(currentIndex);
 }
 
-// Iniciar o carrossel automaticamente
+
 setInterval(nextSlide, 3000);
 
 

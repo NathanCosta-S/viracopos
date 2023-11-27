@@ -2,11 +2,10 @@
     display: flex;
     color: rgb(0, 0, 0);
     align-items: center;
-    background-color: #cecbcb;
+    background-color: #ffffff;
     justify-content: center;
     flex-wrap: wrap;
     line-height: 30px;
-    border-radius: 30px;
     margin-bottom: 10px;
 }
 .sobre h2{
@@ -14,13 +13,12 @@
     font-family: 'Saira Stencil One', sans-serif;
     -webkit-text-stroke: 0.5px #F58533; 
 }
-
 .sobre p{
    padding-bottom: 20px;
     font-size: 24px;
     margin: 10px;
     line-height: 40px;
-    font-weight: 600;
+    font-weight: 400;
     text-align:  center;
     padding-left: 10px;
 }

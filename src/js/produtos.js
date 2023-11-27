@@ -1,23 +1,25 @@
 let carrinho = [];
 let total = 0;
 const frete = 6;
+let total2 = 0;
+const frete2 = 6;
 
 function addItemToCarrinho(productName, price) {
     const existingItemIndex = carrinho.findIndex(item => item.name === productName);
 
     if (existingItemIndex !== -1) {
-        // Se o item já existe no carrinho, apenas aumente a quantidade e atualize o total
+       
         carrinho[existingItemIndex].quantity++;
         carrinho[existingItemIndex].totalPrice += price;
-        // Limita o preço total a dois números após a vírgula
+       
         carrinho[existingItemIndex].totalPrice = parseFloat(carrinho[existingItemIndex].totalPrice.toFixed(2));
     } else {
-        // Caso contrário, adicione um novo item ao carrinho
+       
         const item = {
             name: productName,
             price: price,
             quantity: 1,
-            // Limita o preço total a dois números após a vírgula
+      
             totalPrice: parseFloat(price.toFixed(2)),
         };
 
@@ -57,16 +59,16 @@ function updateCarrinhoUI() {
 function removeItemFromCarrinho(index) {
     const item = carrinho[index];
 
-    // Subtrai um da quantidade e ajusta o preço total
+    
     if (item.quantity > 1) {
         item.quantity--;
         item.totalPrice -= item.price;
     } else {
-        // Se a quantidade for 1, remove completamente o item do carrinho
+       
         carrinho.splice(index, 1);
     }
 
-    // Limita o preço total a dois números após a vírgula
+   
     item.totalPrice = parseFloat(item.totalPrice.toFixed(2));
 
     total -= item.price;
@@ -115,7 +117,7 @@ function enviarMensagem() {
         const telefone = document.getElementById('telefone').value;
         const pagamento = document.getElementById('pagamento').value;
 
-        // Construir a mensagem do pedido com os produtos do carrinho, a quantidade, o frete e o total
+        
         let mensagemPedido = `%0AOlá, vim pelo site.%0ANome: ${nome}%0AEndereço: ${endereco}%0APagamento: ${pagamento}%0ATelefone: ${telefone}%0A%0AProdutos do Carrinho:%0A`;
 
         carrinho.forEach(item => {
@@ -137,16 +139,16 @@ function enviarMensagem() {
 }
 
 
-var produtosPorPagina = 5; // Altere conforme necessário
+var produtosPorPagina = 5; 
 var paginaAtual = 1;
 
-// Função para carregar mais produtos
+
 function loadMoreProducts() {
   var produtos = document.querySelectorAll('.produtos');
   var totalProdutos = produtos.length;
   var produtosExibidos = produtosPorPagina * paginaAtual;
 
-  // Verifica se ainda há produtos para exibir
+ 
   if (produtosExibidos < totalProdutos) {
     for (var i = produtosExibidos; i < produtosExibidos + produtosPorPagina; i++) {
       if (produtos[i]) {
@@ -156,12 +158,12 @@ function loadMoreProducts() {
 
     paginaAtual++;
   } else {
-    // Se não houver mais produtos, esconde o botão "Carregar Mais"
+    
     document.getElementById('btnLoadMore').style.display = 'none';
   }
 }
 
-// Inicializa o carregamento ao carregar a página
+
 window.onload = function () {
   loadMoreProducts();
 };
@@ -174,11 +176,11 @@ function filtrarProdutos() {
     for (let i = 0; i < produtos.length; i++) {
         const produtoNome = produtos[i].getElementsByClassName('card-title')[0].getElementsByTagName('h2')[0].innerText.toLowerCase();
 
-        // Verifica se o nome do produto contém o termo de busca
+        
         if (produtoNome.includes(searchTerm)) {
-            produtos[i].style.display = 'block';  // Exibe o produto
+            produtos[i].style.display = 'block';  
         } else {
-            produtos[i].style.display = 'none';   // Oculta o produto
+            produtos[i].style.display = 'none';   
         }
     }
 }

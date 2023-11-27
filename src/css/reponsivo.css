@@ -40,6 +40,10 @@
         padding: 20px;
     }
 
+    #slides-container{
+        width: 90%;
+        
+    }
     .social img {
 
         padding: 4px
