@@ -56,15 +56,16 @@
 .desenvolvido{
     align-items: center;
     text-align: center;
-    color: white;
     background-image: url('../imagem/footer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 10px;
+    padding: 5px;
     
 }
-.footer .desenvolvido p a{
+.footer .desenvolvido a{
+    text-decoration: none;
     font-weight: 900;
     background-color: black;
+    color: white;
 }
