@@ -16,7 +16,7 @@
 ![Responsivo](./src/image/readme/visaoResponsiva.gif)
 
 <h2>Conclusão</h2>
-<p>Esse projeto foi muito dificil para min na parte do JS, por não ter muita pratica pesquisei muito e tentei fazer o melhor possivel, reconheço que preciso melhorar essa parte e estou me esforçando bastante. </p>
+<p>Esse projeto foi muito dificil para min na parte do JS, por não ter muita pratica pesquisei muito e tentei fazer o melhor possivel, reconheço que preciso melhorar essa parte e estou me esforçando bastante. Mas a parte de HTML e CSS não tive dificuldade. </p>
 <br>
 
 <h2>🛠️ Ferramentas Utilizadas</h2>
@@ -26,6 +26,6 @@
 - JAVASCRIPT
 - Controle de versão GIT
 
-💻 Página do projeto -  [Projeto Meu Portfolio](https://nathancosta-s.github.io/viracopos/)
+💻 Página do projeto -  [Projeto Vira Copo`s](https://nathancosta-s.github.io/viracopos/)
 
 🙋‍♂️ Perfil no LinkedIn - [Nathan Da Costa Silva](https://www.linkedin.com/in/nathan-da-costa-silva-1905b2292/)
