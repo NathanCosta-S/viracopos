@@ -5,7 +5,7 @@
 <h2>🌐 Visão Geral do Projeto</h2>
 <p>No GIF à seguir, uma demonstração geral do projeto e suas funcionalidades: </p>
 
-![Projeto Food Commerce](./src/image/readme/visaoGeral.gif)
+![Projeto Food Commerce](./src/imagem/deadme/visaoGeral.gif)
 
 <br>
 
@@ -13,7 +13,7 @@
 <p>Versão Mobile</p>
 <br>
 
-![Responsivo](./src/image/readme/visaoResponsiva.gif)
+![Responsivo](./src/imagem/deadme/visaoResponsiva.gif)
 
 <h2>Conclusão</h2>
 <p>Esse projeto foi muito dificil para min na parte do JS, por não ter muita pratica pesquisei muito e tentei fazer o melhor possivel, reconheço que preciso melhorar essa parte e estou me esforçando bastante. Mas a parte de HTML e CSS não tive dificuldade. </p>
